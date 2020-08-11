@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "allowJs": true,
+        "typeRoots": ["node_modules/@types", "src/@types"],
+        "types": ["node", "authorization", "example"]
+    },
+    "exclude": ["node_modules", "dist"]
+}

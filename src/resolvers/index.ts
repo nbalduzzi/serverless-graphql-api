@@ -1,0 +1,1 @@
+export { ExampleResolver } from './ExampleResolver';
